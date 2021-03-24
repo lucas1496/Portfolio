@@ -1,55 +1,88 @@
 * {
     box-sizing: border-box;
-    margin:0;
-    padding:0;
-}
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header {
+    padding: 40px;
+    background: #1f2833;
+    color: #45a29e;
+  }
 
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #190061;
-    color: #ffffff;
-}
-
-header h1 {
-    display: inline-block;
-    font-size: 200%;
-}
-
-header nav {
+  header h1 {
+      float:left;
+  }
+  
+  nav {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top: 15px;
-    margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline;
-    margin-left: 25px;
-}
-
-a {
-    color: ivory;
-    text-decoration: underline rgb(0, 86, 214)
-}
-
-figure {
-    height: 100px;
+    background-color: #1f2833;
+  }
+  
+  nav a {
+    display: flex;
+    color: #45a29e;
+    padding: 14px 20px;
+    text-decoration: underline;
+  }
+  
+  figure {
+    height: 150px;
     width: 100%;
     margin-bottom: 25px;
+    background-image: linear-gradient(#1f2833, white);
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to bottom right, #190061, gray);;
-}
+  }
 
-body {
-    background-color: ivory;
-}
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .apps {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 400px;
+  }
+  
+  .card header {
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+        display: block;
+        flex-direction: column;
+    }
+  }
