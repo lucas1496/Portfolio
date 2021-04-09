@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("");
+    background-image: url("./images/black-cubes-26201.jpeg");
     font-size: 18px;
     line-height: 34px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -18,7 +18,8 @@ body {
 }
 
 header {     
-    background-color: #ffffff;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,37,130,1) 50%, rgba(0,0,0,1) 100%);
     margin: 0 0 30px;
     z-index: 99;
     overflow: auto;
@@ -31,12 +32,12 @@ header {
 #logo {
     width: 255px;
     height: 80px;
-    background: blue;
+    background: #fff;
     float: left;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Optima', Times, Times New Roman, serif;
     text-align: center;
     line-height: 80px;
-    color: #fff;
+    color: #2f2fa2;
     font-weight: 700;
     font-size: 30px;
     text-decoration: none;
@@ -45,6 +46,10 @@ header {
 nav {
     float: right;
     margin-top: 25px;
+}
+
+header img {
+    float: left;
 }
 
 nav a { 
@@ -75,12 +80,13 @@ p:last-child {
 }
 
 h1, h2, h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Optima', Times, Times New Roman, serif;
     font-weight: 700;
-    color: blue;
+    color: black;
 }
 
 h1 {
+    font-family: "Optima", 'Times New Roman', Times, serif;
     font-size: 30px;
     line-height: 49px;
     border-bottom: 3px solid #ddd;
@@ -96,6 +102,7 @@ h2, h3 {
 }
 
 .main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: #ffffff;
     padding: 30px;
     margin: 0 0 40px 0;
@@ -105,12 +112,44 @@ h2, h3 {
     border: 1px solid #dddddd;
 }
 
+.main img {
+    border-radius: 15px;
+}
+
 .port {
     width: 300px;
     height: auto;
     margin-top: 10px; 
     float: left; 
     margin-right: 25px;
+}
+
+.project {
+    width: 80%;
+    overflow: auto;
+    position: relative;  
+    margin: 10px 10px;
+    left: 7%;
+}
+
+.project img {
+    width: 100%; 
+    border: 0.5px solid black;
+    border-radius: 15px;
+}
+
+.project h3 {
+    border-bottom: 0; 
+    background-color: #2f2fa2;
+    color: #ffffff;
+    text-align: center; 
+    position: absolute; 
+    bottom: 20px; 
+    padding: 15px; 
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300; 
 }
 
 .work {
@@ -123,12 +162,13 @@ h2, h3 {
 
 .work img {
     width: 100%; 
-    border: 0 none;
+    border: 0.5px solid black;
+    border-radius: 15px;
 }
 
 .work h3 {
     border-bottom: 0; 
-    background-color: blue;
+    background-color: #2f2fa2;
     color: #ffffff;
     text-align: center; 
     position: absolute; 
@@ -178,10 +218,11 @@ input[type=submit] {
 }
 
 footer {
-    background-color: #666666;
     padding: 30px 0;
     clear: both;
-    border-top: 8px solid blue;
+    border-top: 2px solid #fff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,37,130,1) 50%, rgba(0,0,0,1) 100%);
     color: #ccc;
     font-size: 12px; 
     text-align: center;
