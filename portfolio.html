@@ -1,63 +1,224 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Title>My Portfolio by LQ</Title>
-    <!-- Style links -->
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <link rel='shortcut icon' href="images/favicon.ico" type='image/x-icon' />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>L.Q.</title>
+<meta name="keywords" content="">
+<meta name="description" content="professional website">
+<meta name="author" content="Lucas Quatorze">
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+
+
+
+
 </head>
-
-
-<body>
-    <header>
-        <div class="container">
-            <a href="index.html" id="logo">Lucas Quatorze</a>
-            <!-- Navigation-->
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+<!-- body -->
+<body class="main-layout">
+<!-- loader  -->
+<div class="loader_bg">
+  <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+</div>
+<!-- end loader --> 
+<!-- header -->
+<header> 
+  <!-- header inner -->
+  <div class="head-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="email"> <a href="mailto:lucas.14.96@gmail.com" target="_blank">Email : lucas.14.96@gmail.com</a> </div>
         </div>
-    </header>
-    <div id="main-container" class="container">
-        <!-- Main section -->
-        <section class="main">
-            <h1>My Portfolio</h1>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="icon"> <i> <a href="https://www.facebook.com/lucas.quatorze.7/" target="_blank"><img src="icon/fb.png"></a></i> <i> <a href="https://www.instagram.com/pigodidog/" target="_blank"><img src="icon/insta.png"></a></i> <i> <a href="https://www.linkedin.com/in/lucas-14/" target="_blank"><img src="icon/lin.png"></a></i> </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="contact"> <a href="#">Contact :  +1 512 960 0505</a> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+        <div class="full">
+          <div class="center-desk">
+            <div class="logo"> <a href="index.html"><img src="images/signature.png" alt="#"></a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+        <div class="menu-area">
+          <div class="limit-box">
+            <nav class="main-menu">
+              <ul class="menu-area-main">
+                <li class="active"> <a href="index.html">|  Home</a> </li>
+                <li class="active"> <a href="portfolio.html">|  Portfolio</a> </li>
+                <li> <a href="contact.html">|  Contact Me</a> </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header inner --> 
+</header>
+<!-- end header -->
+<div class="about-bg">
+  <div class="container">
+    <div class="row">
+       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="abouttitle">
+         <h2><a href="#webAppsTitle">Deployed Web Apps</a> | <a href="#pAppsTitle">Python Projects</a> | <a href="#myMusic">My Music</a></h2>
+        </div>
+       </div>
+    </div>
+  </div>
+</div>
+<!--state gallery -->
+<div class="gallery"> <div class="gallery-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="gallery-us">
+          <section class="webApps">
+            <h1 id="webAppsTitle"><u>&#8211 My Web Apps &#8211<u></h1>
+            <br>
             <!-- 1st card -->
             <div class="project">
-                <img src="./assets/images/electrapoint.png" class="port" alt="ElectraPoint">
-                <a href="https://sournachos.github.io/ElectraPoint/"><h3>ElectraPoint</h3></a>
+              <img src="./images/electrapoint.png" class="port" alt="ElectraPoint">
+              <a href="https://sournachos.github.io/ElectraPoint/"><h3>ElectraPoint</h3></a>
             </div>
-
-            <!-- 2nd card-->
-            <div class="work">
-                <img src="./assets/images/wdashboard.png" class="port" alt="image-2">
-                <a href="https://pigodidog.github.io/Weather-Dashboard-LQ/"><h3>Weather Dashboard</h3></a>
+            <br>
+            <!-- 2nd card -->
+            <div class="work" id="ems">
+              <img src="./images/ems.png" class="port" alt="image-4">
+              <a href="https://github.com/pigodidog/Employee-Management-System-LQ"><h3>Employee Management System</h3></a>
             </div>
-
-            <!-- photo 3-->
-            <div class="work">
-                <img src="./assets/images/scheduler.png" class="port" alt="image-3">
-                <a href="https://pigodidog.github.io/Work-Day-Scheduler/"><h3>Scheduler</h3></a>
+            <br>
+            <!-- 3rd card-->
+            <div class="work" id="weatherdash">
+              <img src="./images/wdashboard.png" class="port" alt="image-2">
+              <a href="https://pigodidog.github.io/Weather-Dashboard-LQ/"><h3>Weather Dashboard</h3></a>
             </div>
-
-            <!-- photo 4-->
-            <div class="work">
-                <img src="./assets/images/code-quiz.png" class="port" alt="image-4">
-                <a href="https://pigodidog.github.io/APIs-Code-Quiz-LucasQ/"><h3>Code Quiz</h3></a>
+            <br>
+            <!-- 4th card -->
+            <div class="work" id="scheduler">
+              <img src="./images/scheduler.png" class="port" alt="image-3">
+              <a href="https://pigodidog.github.io/Work-Day-Scheduler/"><h3>Scheduler</h3></a>
             </div>
+            <br>
+            <!-- 5th card -->
+            <div class="work" id="quiz">
+              <img src="./images/code-quiz.png" class="port" alt="image-4">
+              <a href="https://pigodidog.github.io/APIs-Code-Quiz-LucasQ/"><h3>Code Quiz</h3></a>
+            </div>
+          </section>
 
-        </section>
+          <br><br>
+          <hr>
+
+          <section class="pythonAppsTitle">
+              <h1 id="pAppsTitle"><u>&#8211 My Python Apps &#8211</u></h1>
+              <br>
+              <br>
+              <div class="pythonApps">
+                <h2>Caesar.<strong class="cur">Cipher</strong></h2>
+                <h3> Encrypt/Decrypt your own message, Julius Caesar Style!</h3>
+                <iframe height="400px" width="100%" src="https://repl.it/@LucasQuatorze/CaesarCipherpy?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                <hr>
+                <br></br>
+
+                <h2>Days.In.Month <strong class="cur">Calculator</strong></h2>
+                <h3> Need to know how many days february has this year? Or any year? </h3>
+                <iframe height="400px" width="100%" src="https://repl.it/@LucasQuatorze/DaysInMonthpy?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                <hr>
+                <br></br>
+
+                <h2>Custom.<strong class="cur">Font</strong></h2>
+                <hr></hr>
+                <h3> Write something in a custom font! </h3>
+                <iframe height="400px" width="100%" src="https://repl.it/@LucasQuatorze/CustomFontpy?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                <hr>
+                <br></br>
+
+                <h2>Turtle.<strong class="cur">Graphics</strong></h2>
+                <h3> Draw some squares with this little program! </h3>
+                <iframe height="400px" width="100%" src="https://repl.it/@LucasQuatorze/Turtlepy?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                <hr>
+                <br></br>
+              </div>
+
+          </section>
+          
+          <section class="music">
+            <h1 id="myMusic"><u>&#8211 Music (produced by me!) &#8211</u></h1>
+            <br>
+            <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/923004220&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/pigodog" title="PiGoDog" target="_blank" style="color: #cccccc; text-decoration: none;">PiGoDog</a> · <a href="https://soundcloud.com/pigodog/clear-your-mind-instrumental" title="Clear Your Mind (Instrumental)" target="_blank" style="color: #cccccc; text-decoration: none;">Clear Your Mind (Instrumental)</a></div>
+            <hr></hr>
+          </section>
+
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="gallery-us">
+        </div>
+      </div>
     </div>
+  </div>
+  </div> 
+</div>
 
-    <footer>
-        <p>Lucas Quatorze &copy; 2021</p>
-    </footer>
+<footer> 
+ <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+        <div class="Contact">
+          <h3>Contact Me</h3>
+          <ul class="contant_icon">
+            <li> <a href="https://www.google.com/maps/place/Austin,+TX/@30.3074624,-98.0335911,10z/data=!3m1!4b1!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267153!4d-97.7430608"><img src="icon/location.png"></a></li>
+            <li> <a href="tel:5129600505"></a><img src="icon/tellephone.png"></a></li>
+            <li> <a href="mailto:lucas.14.96@gmail.com"><img src="icon/email.png"></a></li>
+          </ul>
+        </div>
+      </div>
+     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+      <div class="Social">
+        <h3>Social links</h3>
+        <ul class="socil_link">
+          <li><a href="https://www.facebook.com/lucas.quatorze.7/"><img src="icon/fb.png"></a></li>
+          <li> <a href="https://www.instagram.com/pigodidog/"><img src="icon/insta.png"></a></li>
+          <li> <a href="https://www.linkedin.com/in/lucas-14/"><img src="icon/lin.png"></a></li>
+                </ul>
+              </div>
+     </div>   
+    </div>
+  </div>
+ </div>
+ <div class="copyright">
+  <div class="container">
+    <p>Copyright 2021 All Right Reserved. Lucas Quatorze</p>
+  </div>
+ </div>
+</footer>
+
+<!-- Javascript files--> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/custom.js"></script>
 
 </body>
-
-</HTML>
+</html>

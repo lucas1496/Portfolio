@@ -1,64 +1,195 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Title>My Portfolio by LQ</Title>
-    <!-- Style links -->
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <link rel='shortcut icon' href="images/favicon.ico" type='image/x-icon' />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>L.Q.</title>
+<meta name="keywords" content="">
+<meta name="description" content="professional website">
+<meta name="author" content="Lucas Quatorze">
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+
+
+
+
 </head>
-
-
-<body>
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <a href="index.html" id="logo">Lucas Quatorze</a>
-            <!-- Navigation -->
-            <nav>
-                <a href="index.html"> About</a>
-                <a href="portfolio.html"> Portfolio</a>
-                <a href="contact.html"> Contact</a>
-            </nav>
+<!-- body -->
+<body class="main-layout">
+<!-- loader  -->
+<div class="loader_bg">
+  <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+</div>
+<!-- end loader --> 
+<!-- header -->
+<header> 
+  <!-- header inner -->
+  <div class="head-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="email"> <a href="mailto:lucas.14.96@gmail.com" target="_blank">Email : lucas.14.96@gmail.com</a> </div>
         </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <!-- Main section -->
-        <section class="main">
-
-            <h1>About Me</h1>
-
-            <!-- Picture of me -->
-            <img src="./assets/images/lucas.jpg" alt="Lucas" class="port">
-            <!-- About Me text -->
-            <p>Hi there! My name is Lucas Quatorze and I'm an international student seeking to become a full-stack web developer. 
-                Thanks for checking out my website!
-            </p>
-            <p>I was born in Switzerland to Brazilian parents but raised in Brazil and Mexico. I then moved to Austin, Texas after 
-                graduating high school in Mexico City to further my studies. 
-            </p>
-            <p>I moved to the United States in 2014 in pursuit of my Bachelor's Degree at the University of Texas at Austin.
-                I took many classes in countless different fields such as Advertising, Entrepreneurship, and even Architecture. I eventually
-                settled in the Liberal Arts school with Sociology as my major after completing a certificate in Business Administration. I was struggling a lot to find my direction
-                in life, that's when I decided to pursue a career in Web Development by enrolling in the UT Austin Coding Bootcamp!
-            </p>
-            <p> I have moderate experience in the fields of Retail, Marketing, Advertising and Product Management. My first professional experience was
-                working as a Creative intern for Ogilvy & Mather Mexico. I have also worked as a Marketing intern for Gemalto (now called Thales Group), as a Retail
-                Associate at UT Austin's University Co-op, and as a Product Management intern at FonYou Mexico. Hopefully I'll soon be working as a Junior Web Developer!
-            </p>
-            <p>I am interested in learning about new opportunities and can be reached through my GitHub profile or by email:
-                <a href="mailto:lucas.14.96@gmail.com" target="_blank">lucas.14.96@gmail.com</a></p>
-
-        </section>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="icon"> <i> <a href="https://www.facebook.com/lucas.quatorze.7/" target="_blank"><img src="icon/fb.png"></a></i> <i> <a href="https://www.instagram.com/pigodidog/" target="_blank"><img src="icon/insta.png"></a></i> <i> <a href="https://www.linkedin.com/in/lucas-14/" target="_blank"><img src="icon/lin.png"></a></i> </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="contact"> <a href="#">Contact :  +1 512 960 0505</a> </div>
+        </div>
+      </div>
     </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+        <div class="full">
+          <div class="center-desk">
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+        <div class="menu-area">
+          <div class="limit-box">
+            <nav class="main-menu">
+              <ul class="menu-area-main">
+                <li class="active"> <a href="index.html">|  Home</a> </li>
+                <li> <a href="portfolio.html">|  Portfolio</a> </li>
+                <li> <a href="contact.html">|  Contact me</a> </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header inner --> 
+</header>
+<!-- end header -->
+<section class="slider_section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6"> 
+        <!-- state banner -->
+        <div id="myPic">
+          <div>
+            <div> <img class="first-pic" src="images/banner.jpg" alt="Me"> </div>
+          </div>
+          <i class='fa fa-angle-right'></i><i class='fa fa-angle-left'></i></div>
+        <!-- end banner --> 
+      </div>
+      <div class="col-md-6">
+        <div class="full-slider_cont">
+          <h1>Welcome<br>
+            <span class="dark_brown">to my page!</span></h1>
+          <p>
+            <h2>My Work Experience</h2>
+				<hr></hr>
+				<a href="https://fonyou.com/" target="_blank"><u>FonYou Mexico</u></a> &#8211 Product Management Intern; Mexico City, Mexico (June 2019 &#8211 July 2019)
+				<br></br>
+				<a href="https://www.universitycoop.com/" target="_blank"><u>The University Co-op</u></a> &#8211 Sales Associate; Austin, TX (May 2017 &#8211 August 2017)
+				<br></br>
+				<a href="https://www.thalesgroup.com/en/markets/digital-identity-and-security/gemalto-website-has-moved-thales" target="_blank"><u>Gemalto, Inc</u></a> &#8211 Region Marketing Intern; Austin, TX (June 2016 &#8211 August 2016)
+				<br></br>
+				<a href="https://www.ogilvy.com.mx/" target="_blank"><u>Ogilvy & Mather Mexico</u></a> &#8211 Creative Intern; Mexico City, Mexico (June 2015 &#8211 July 2015)
+				<br></br>
+          </p>
+          <div class="button_section"> <a class="main_bt" href="./assets/Lucas-Quatorze-2021-Resume.pdf" target="_blank">My Resume</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<br>					
+<hr></hr>
+<!-- state abouts -->
+<div class="aboutme">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage2">
+          <h2>about <strong class="cur">Me</strong></h2>
+          <hr>
+          <!-- About Me text -->
+          <p>Hi there! My name is Lucas Quatorze and I'm an international student seeking to become a full-stack web developer. 
+            Thanks for checking out my website!
+        </p>
+        <br>
+        <p>I was born in Switzerland to Brazilian parents but raised in Brazil and Mexico. I then moved to Austin, Texas after 
+            graduating high school in Mexico City to further my studies. 
+        </p>
+        <br>
+        <p>I moved to the United States in 2014 in pursuit of my Bachelor's Degree at the University of Texas at Austin.
+            I took many classes in countless different fields such as Advertising, Entrepreneurship, and even Architecture. I eventually
+            settled in the Liberal Arts school with Sociology as my major after completing a certificate in Business Administration. I was struggling a lot to find my direction
+            in life, that's when I decided to pursue a career in Web Development by enrolling in the UT Austin Coding Bootcamp!
+        </p>
+        <br>
+        <p> I have moderate experience in the fields of Retail, Marketing, Advertising and Product Management. My first professional experience was
+            working as a Creative intern for Ogilvy & Mather Mexico. I have also worked as a Marketing intern for Gemalto (now called Thales Group), as a Retail
+            Associate at UT Austin's University Co-op, and as a Product Management intern at FonYou Mexico. Hopefully I'll soon be working as a Junior Web Developer!
+        </p>
+        <br>
+        <p>I am interested in learning about new opportunities and can be reached through my LinkedIn profile or by e-mail:
+            <a href="mailto:lucas.14.96@gmail.com" target="_blank">lucas.14.96@gmail.com</a></p>
+            <br>
+          <h2>&#8211 <strong class="cur">Lucas Quatorze</strong></h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- future request box? -->
 
-    <footer>
-        <p>Lucas Quatorze &copy; 2021</p>
-    </footer>
+
+<!-- footer -->
+<footer>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+          <div class="Contact">
+            <h3>Contact Me</h3>
+            <ul class="contant_icon">
+              <li> <a href="https://www.google.com/maps/place/Austin,+TX/@30.3074624,-98.0335911,10z/data=!3m1!4b1!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267153!4d-97.7430608"><img src="icon/location.png"></a></li>
+              <li> <a href="tel:5129600505"></a><img src="icon/tellephone.png"></a></li>
+              <li> <a href="mailto:lucas.14.96@gmail.com"><img src="icon/email.png"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+          <div class="Social">
+            <h3>Social links</h3>
+            <ul class="socil_link">
+              <li><a href="https://www.facebook.com/lucas.quatorze.7/"><img src="icon/fb.png"></a></li>
+              <li> <a href="https://www.instagram.com/pigodidog/"><img src="icon/insta.png"></a></li>
+              <li> <a href="https://www.linkedin.com/in/lucas-14/"><img src="icon/lin.png"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <p>Copyright 2021 All Right Reserved. Lucas Quatorze</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Javascript files--> 
+<script src="js/jquery.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
-
 </html>

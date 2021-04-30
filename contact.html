@@ -1,67 +1,170 @@
-<!DOCTYPE HTML>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <Title>My Portfolio by LQ</Title>
-    <!-- Style links -->
-    <link rel="stylesheet" type="text/css" href="./assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <link rel='shortcut icon' href="images/favicon.ico" type='image/x-icon' />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<!-- site metas -->
+<title>L.Q.</title>
+<meta name="keywords" content="">
+<meta name="description" content="professional website">
+<meta name="author" content="Lucas Quatorze">
+<!-- bootstrap css -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- style css -->
+<link rel="stylesheet" href="css/style.css">
+<!-- Responsive-->
+<link rel="stylesheet" href="css/responsive.css">
+
+
+
+
 </head>
-
-
-<body>
-    <header>
-        <div class="container">
-
-            <a href="index.html" id="logo">Lucas Quatorze</a>
-
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+<!-- body -->
+<body class="main-layout">
+<!-- loader  -->
+<div class="loader_bg">
+  <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+</div>
+<!-- end loader --> 
+<!-- header -->
+<header> 
+  <!-- header inner -->
+  <div class="head-top">
+    <div class="container">
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <div class="email"> <a href="mailto:lucas.14.96@gmail.com" target="_blank">Email : lucas.14.96@gmail.com</a> </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+            <div class="icon"> <i> <a href="https://www.facebook.com/lucas.quatorze.7/" target="_blank"><img src="icon/fb.png"></a></i> <i> <a href="https://www.instagram.com/pigodidog/" target="_blank"><img src="icon/insta.png"></a></i> <i> <a href="https://www.linkedin.com/in/lucas-14/" target="_blank"><img src="icon/lin.png"></a></i> </div>
+          </div>
+        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+          <div class="contact"> <a href="#">Contact :  +1 512 960 0505</a> </div>
         </div>
-    </header>
-
-    <div id="main-container" class="container">
-        <!-- Main section -->
-        <section class="main">
-
-            <h1>Contact</h1>
-          
-            <form id="contact-form">
-                <ul>
-                    <!-- Label and input for name-->
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="You Name" required="required">
-                    </li>
-                    <!-- Label and input for email-->
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="yourname@me.com" required="required">
-                    </li>
-                    <!-- Label and input for message-->
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required">
-                        </textarea>
-                    </li>
-                    <!-- Submit Button -->
-                    <input type="submit" name="submit">
-                </ul>
-
-            </form>
-
-        </section>
+      </div>
     </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+        <div class="full">
+          <div class="center-desk">
+            <div class="logo"> <a href="index.html"><img src="images/signature.png" alt="#"></a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+        <div class="menu-area">
+          <div class="limit-box">
+            <nav class="main-menu">
+              <ul class="menu-area-main">
+                <li> <a href="index.html">|  Home</a> </li>
+                <li> <a href="portfolio.html">| Portofolio</a> </li>
+                <li class="active"> <a href="contact.html">|  Contact Me</a> </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end header inner --> 
+</header>
+<!-- end header -->
 
-    <footer>
-        <p>Lucas Quatorze &copy; 2021</p>
-    </footer>
+<div class="Request-bg">
+  <div class="container">
+    <div class="row">
+       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="abouttitle">
+         <hr>
+       </div>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="Request">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="titlepage3">
+          <h2>Request a Call</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <form>
+          <input class="form-control" placeholder="Name" type="Name">
+          <input class="form-control" placeholder="Phone" type="Phone">
+          <input class="form-control" placeholder="Email" type="Email">
+          <textarea class="textarea" placeholder="Message" >Message</textarea>
+        </form>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+        <div class="Request-box">
+          <div class="Reachout">
+            <h2>Feel Free To Reach Out!</h2>
+            <p>Leave me your contact information and I'll get back to you! (COMING SOON)</p>
+          </div>
+        </div>
+      </div>
+      <hr></hr>
+      <button class="send-btn">Send</button>
+      <hr></hr>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+<footer> 
+ <div class="footer">
+ 	<div class="container">
+ 		<div class="row">
+ 		 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+ 		 	<div class="Contact">
+ 		 		
+ 		 		<h3>Contact Me</h3>
+ 		 		<ul class="contant_icon">
+ 		 		<li> <a href="https://www.google.com/maps/place/Austin,+TX/@30.3074624,-98.0335911,10z/data=!3m1!4b1!4m5!3m4!1s0x8644b599a0cc032f:0x5d9b464bd469d57a!8m2!3d30.267153!4d-97.7430608"><img src="icon/location.png"></a></li>
+            <li> <a href="tel:5129600505"></a><img src="icon/tellephone.png"></a></li>
+            <li> <a href="mailto:lucas.14.96@gmail.com"><img src="icon/email.png"></a></li>
+ 		 	 </ul>
+ 		 	</div>
+ 		 </div>
+ 		 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12">
+ 		 	<div class="Social">
+ 		 		<h3>Social links</h3>
+ 		 		<ul class="socil_link">
+          <li><a href="https://www.facebook.com/lucas.quatorze.7/"><img src="icon/fb.png"></a></li>
+          <li> <a href="https://www.instagram.com/pigodidog/"><img src="icon/insta.png"></a></li>
+          <li> <a href="https://www.linkedin.com/in/lucas-14/"><img src="icon/lin.png"></a></li>
+                </ul>
+ 		 	</div>
+ 		 </div>		
+ 		</div>
+ 	</div>
+ </div>
+ <div class="copyright">
+ 	<div class="container">
+ 		<p>Copyright 2021 All Right Reserved. Lucas Quatorze</p>
+ 	</div>
+ </div>
+</footer>
+
+<!-- Javascript files--> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/custom.js"></script>
 
 </body>
-
-</HTML>
+</html>
