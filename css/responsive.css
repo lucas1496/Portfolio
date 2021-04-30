@@ -256,7 +256,7 @@
        margin-bottom: 20px;
    }
    header {
-   border-top: solid #bf5700 5px
+   border-top: solid #ffdf6c 5px
 }
 }
 @media (max-width: 575px) {
@@ -340,6 +340,6 @@
        margin-bottom: 20px;
    }
    header {
-   border-top: solid #bf5700 5px
+   border-top: solid #ffdf6c 5px
 }
 }
