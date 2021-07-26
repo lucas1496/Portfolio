@@ -5,5 +5,5 @@
 In this repository you will find all the files for my Advanced CSS Professional Portfolio
 
 The following link will take you to the live deployed GitHub page:
-- https://pigodidog.github.io/LucasQ-My-Professional-Portfolio/
+- https://lucas1496.github.io/Portfolio/
 
